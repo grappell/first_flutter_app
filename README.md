@@ -1,16 +1,15 @@
-# first_flutter_app
+# First Flutter App
+This is the first Flutter app that I've ever made. It was made following the tutorial on Flutter's website.
 
-A new Flutter project.
+## Running the app
+- Make sure you have the ```Flutter CLI``` and ```Dart CLI``` installed.
+- Clone this reposatory into a new folder
+- Start dev process with ```F5``` (VS Code) or by entering ```> flutter run``` in a terminal
+- Once the process is started, you can save to hot reload
 
-## Getting Started
+## Finalizing / Building the app
+The main feature in flutter is the ability to compile to multiple targets. To do this run ```flutter build --[TARGET]```. If I wanted to build for the web, I would wright ```flutter build --web```. <br />
 
-This project is a starting point for a Flutter application.
+Say I wanted to preview the final version of my app before I build it, I would select the "release mode" option in VS Code or alternativeally enter in the terminal ```flutter run --release``` <br />
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If I wanted to proflile my app, I would select the "profile mode" in VS Code, or run ```flutter run --profile```.
